@@ -6,6 +6,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/subnets: subnet-0bf53ae4e19486926,subnet-0242e1caef3b5ba8f,subnet-033da832b2ac2ecc7
   labels:
     app: frontend
 spec:
